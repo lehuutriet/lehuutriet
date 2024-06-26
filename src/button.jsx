@@ -46,6 +46,66 @@ const Setting1 = () => {
         <Button ref={ref3} icon={<EllipsisOutlined />} />
       </Space>
       <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Button type="primary" onClick={() => setOpen(true)}>
+        Begin Tour
+      </Button>
+      <Divider />
+      <Space>
+        <Button ref={ref1}> Upload</Button>
+        <Button ref={ref2} type="primary">
+          Save
+        </Button>
+        <Button ref={ref3} icon={<EllipsisOutlined />} />
+      </Space>
+      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Button type="primary" onClick={() => setOpen(true)}>
+        Begin Tour
+      </Button>
+      <Divider />
+      <Space>
+        <Button ref={ref1}> Upload</Button>
+        <Button ref={ref2} type="primary">
+          Save
+        </Button>
+        <Button ref={ref3} icon={<EllipsisOutlined />} />
+      </Space>
+      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Button type="primary" onClick={() => setOpen(true)}>
+        Begin Tour
+      </Button>
+      <Divider />
+      <Space>
+        <Button ref={ref1}> Upload</Button>
+        <Button ref={ref2} type="primary">
+          Save
+        </Button>
+        <Button ref={ref3} icon={<EllipsisOutlined />} />
+      </Space>
+      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Button type="primary" onClick={() => setOpen(true)}>
+        Begin Tour
+      </Button>
+      <Divider />
+      <Space>
+        <Button ref={ref1}> Upload</Button>
+        <Button ref={ref2} type="primary">
+          Save
+        </Button>
+        <Button ref={ref3} icon={<EllipsisOutlined />} />
+      </Space>
+      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Button type="primary" onClick={() => setOpen(true)}>
+        Begin Tour
+      </Button>
+      <Divider />
+      <Space>
+        <Button ref={ref1}> Upload</Button>
+        <Button ref={ref2} type="primary">
+          Save
+        </Button>
+        <Button ref={ref3} icon={<EllipsisOutlined />} />
+      </Space>
+      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
     </>
   );
 };
